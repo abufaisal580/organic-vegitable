@@ -27,3 +27,169 @@ font-family: 'Inter', sans-serif;
 
 
 /* hdeader-//././././././.complete */
+
+
+
+.main-nav{
+display: flex;
+justify-content: space-between;
+margin-top: 31px;
+}
+
+.nav-middle ul{
+list-style: none;
+
+
+}
+.nav-middle ul a{
+text-decoration: none;
+color: #282828;
+ont-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+padding-left: 50px;
+
+}
+.nav-middle ul a:hover{
+color: #477018;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+
+
+}
+.nav-right{
+    display: flex;
+    gap: 18px;
+}
+/* navigation---------------------complete */
+
+
+/* bannar-------------------start */
+#banner{
+    background-image: url(image/bannar.png);
+    height: 700.00012px;
+    margin-top: 29px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.banner-head{
+    width: 550px;
+    padding-top: 134px;
+}
+.banner-head h1{
+color: #282828;
+font-family: Inter;
+font-size: 75px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+}
+.banner-head h1 span{
+    color: #F47606;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-para{
+width: 402px;
+padding-top: 20px;
+}
+.banner-para p{
+color: #676767;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.bannar-btn{
+    margin-top: 30px;
+}
+.bannar-btn button{
+    width: 200px;
+    height: 56px;
+   
+    border-radius: 10px;
+    background: #477018;
+    border: none;
+}
+.bannar-btn button a{
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+text-decoration: none;
+
+}
+/* bannar---------complete */
+.main-service-card{
+    margin-top: 132px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-card-details{
+width: 267px;
+height: 320px;
+border-radius: 25px;
+border: 0.5px solid #C9C9C9;
+background: #FFF;
+
+}
+.service-card-icon{
+    font-size: 51px;
+    margin-left: 108px;
+    margin-top: 88px;
+    color: #F47606;  
+}
+.service-card-head{
+    text-align: center;
+    
+    margin-top: 30px;
+}
+.service-card-head h1{
+color: #282828;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+
+}
+.service-card-para{
+   text-align: center;
+    
+}
+.service-card-para p{
+color: #676767;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+/* service-card-complete */
+.main-mini-fruits{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.mini-fruits-widh{
+    width:170px;
+    height: 190px;
+}
+.mini-fruits-name{
+color: #282828;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+}
