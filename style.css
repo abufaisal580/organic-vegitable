@@ -1,0 +1,29 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#head{
+    background: #477018;
+    height: 50px;
+}
+.header h1{
+    width: 246px;
+    height: 19px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 15px;
+}
+
+
+
+/* hdeader-//././././././.complete */
