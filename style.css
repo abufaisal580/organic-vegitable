@@ -44,7 +44,7 @@ list-style: none;
 .nav-middle ul a{
 text-decoration: none;
 color: #282828;
-ont-family: Inter;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -192,4 +192,471 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-align: center;
+}
+/* feature-product-start */
+.featured-product-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+
+.featured-product-head h1{
+color: #282828;
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.main-featured-product{
+margin-top: 50px;
+display: flex;
+justify-content: space-between;
+}
+.featured-product-container{
+    width: 365px;
+    height: 70px;
+    position: relative;
+    height: auto;
+    
+}
+
+.add-to-cart{
+    position: absolute;
+    top: 372px;
+    left: 64px;
+}
+
+.featured-product-reating{
+    padding-left:125px ;
+    margin-top: 30px;
+}
+.featured-product-name p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 12px;
+}
+.featured-product-name h1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 12px;
+}
+/* choose section */
+/* .choose-header h1{
+    color: #282828;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+} */
+
+#choose{
+   margin-top: 130px;
+}
+.main-choose-card{
+    margin-top: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+.choose-header h1{
+color: #282828;
+text-align: center;
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+
+}
+.choose-card-left{
+    width: 356px;
+}
+.choose-card-img img{
+    margin-left: 150px;
+}
+.choose-card-img h1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 49px;
+}
+.choose-card-img p{
+color: #676767;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin-top: 10px;
+}
+.choose-card-middle{
+width: 356px;
+}
+.choose-card-middle img{
+margin-left: 132px;
+
+}
+.choose-card-middle h1{
+ color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.choose-card-middle p{
+color: #676767;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.choose-card-right{
+    width: 356px;
+}
+.choose-card-right img{
+margin-left: 162px;
+margin-top: 40px;
+}
+.choose-card-right h1{
+color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.choose-card-right p{
+   color: #676767;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+
+
+/* healthy-section-start */
+#healthy{
+    margin-top: 130px;
+}
+.healthy-details{
+    background: url(image/healthy-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+.healthy-details h1{
+color: #282828;
+font-family: Inter;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 92px;
+padding-left: 104px;
+}
+.healthy-details p{
+color: #676767;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+padding-left: 104px;
+padding-top: 20px;
+}
+.healthy-details button{
+width: 200px;
+height: 56px;
+border-radius: 10px;
+background: #477018;
+border: none;
+margin-left: 104px;
+margin-top:30px ;
+}
+.healthy-details button a{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+text-decoration: none;
+
+}
+/* secend-feature----------start */
+.menubar{
+    display: flex;
+    justify-content: space-between;
+}
+.menubar-left h1{
+color: #282828;
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 130px;
+
+}
+.menubar-right ul{
+list-style: none;
+margin-top: 137px;
+}
+.menubar-right ul a{
+    color: #676767;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    padding-left: 44px;
+}
+.menubar-right ul a:hover{
+color: #F47606;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+}
+.main-secend-featured-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    margin-top: 50px;
+}
+/* deal-section-start */
+.main-deal{
+    display: flex;
+    justify-content: space-between;
+}
+.deal-left h1{
+    color: #282828;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 144px;
+}
+.deal-right{
+    display: flex;
+    gap: 30px;
+    margin-top: 130px;
+ 
+}
+.little-card{
+width: 70px;
+height: 70px;
+border-radius: 10px;
+background: #F47606;
+}
+.little-card h1{
+text-align: center;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 10px;
+}
+.card{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    
+}
+.card h1{
+color: #F47606;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.main-third-bannar{
+    background: url(image/third-bannar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 50px;
+}
+.main-third-bannar h1{
+color: #282828;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px;
+width: 350px;
+padding-top: 85px;
+margin-left: 125px;
+}
+.main-third-bannar p{
+color: #282828;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 10px;
+margin-left: 125px;
+}
+.main-third-bannar button{
+    width: 200px;
+    height: 56px;
+    border-radius: 10px;
+    background: #477018;
+    border: none;
+    margin-left: 125px;
+    margin-top:30px ;
+    }
+    .main-third-bannar button a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+    
+    }
+    /* top-rated-start */
+
+.top-rated-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.top-rated-head h1{
+color: #282828;
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.top-rated-head p{
+color: #676767;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.top-rated-product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/* product-section */
+.origin-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.origin-left h1{
+color: #282828;
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.origin-right ul{
+    list-style: none;
+    
+}
+.origin-right ul a{
+color: #676767;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+text-decoration: none;
+padding-left: 45px;
+}
+.origin-right ul a:hover{
+color: #F47606;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+text-decoration: none; 
+padding-left: 45px;
+}
+.main-origin-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 21px;
+    margin-top: 50px;
+}
+.origin-card-one{
+    height:auto;
+    width: 267px;
+}
+.origin-card-img{
+    background-blend-mode: darken;
+    height: 267px;
+    width: 278px;
+    border-radius: 42px;
+
+    
+}
+.ratting img{
+    padding: 47px 0px 0px 70px;
+  
+}
+
+.ratting p{
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 70px;
+padding-top: 10px;
+}
+.ratting h1{
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-left: 70px;
+padding-top: 10px;
 }
